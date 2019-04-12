@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #C09F80;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.body{
+    background-color:  #C09F80;
+}
+.header{
+    background-image: url('../assets/bird3.png');
+    background-size:cover;
+    width:100%;
+} 
+
+.sobreMim{
+    background-image: url('../assets/bird2.png');
+    background-size:cover; 
+    display: flex;
+}
+ul{
+    display: flex;
+    align-items: center;  
+    justify-content: space-around;
+    text-transform: uppercase;
+    height: 5vh;
+    border: 2px solid black;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.banner{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 200px;
+    font-size: 1.5rem;
+}
+.banner_title-color{
+    color: black;
+}
+.seta{
+    padding: 50px;
+}
+.seta_img{
+    width: 20px;
+}
+
+.sidebar-menu{
+    display:none;
+}
+.projetos_title{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+    font-size: 25px;
+    display: block;
+}
+
+.projetos_site{
+    display: flex;
+}
+.projetos{
+    height: 90vh;
+}
+.site_1{
+    justify-content: space-around;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    
+}
+.site_2{
+    justify-content: space-around;
+    display: flex;
+    align-items: center; 
+    flex-direction: column; 
+    
+}
+
+.site_img{
+    width:90%;
+}
+.site_title{
+    color: white;
+    text-align: center; 
+    width: 90%;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 20px;
+    text-align: center;   
+}
+.btn__link{
+    background-color: #C09F80;
+    color: white;
+    padding: 10px 20px;    
+    border: 3px solid white;    
+    font-size: 15px;    
+    font-weight: bold;   
+    text-transform: uppercase;
+    
+    
+}
+.btn_link{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;    
+    border: 3px solid black;    
+    font-size: 15px;    
+    font-weight: bold;   
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    
+}
+.titles{
+    display: flex;
+    width: 100%; 
+    align-items: center; 
+    justify-content: space-around;
+    text-align: center; 
+    text-transform: uppercase;
+    font-size: 25px;
+    color: black;    
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-top: 50px;   
+}
+.sobreMim{
+    background-color: white;
+    text-align: center;
+}
+.sobreMim_img{
+    background-color: black;
+    border-radius: 100%;
+    height: 157px;
+    object-fit: cover;
+    width: 157px;
+}
+.sobreMim_description{
+    font-family: 'Quicksand', sans-serif;
+    color: #C09F80;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contato{
+    height: 30vh;
+}
+.contato_icons{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+}
+.contato_img{
+    width: 10%;    
+}
+
+.contato_title_titles{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.rodape__contatos{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.contatos__link-img{
+    background-color: white;
+    display: flex;
+    height: 10vh;
+    border-radius: 65px;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    padding: 10px;
+
+}
+/* desktop */
+@media (min-width:1080px) and (max-width:2010px){}
+/* mobile */
+@media (min-width:320px) and (max-width:667px){
+.rodape__contatos{
+    
+    width: 100%;
+    display: block;
+    text-align: center; 
+    height: 10vh; 
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.projetos_site{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.projetos{
+    height: 130vh;
+}
+
+.contatos__link-img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    display: block;
+    text-align: center; 
+}
+.contato{
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    justify-content: space-around;
+    
+}    
+
+footer{
+    font-size: 90%;
+}
+/* tablet */
+@media (min-width:768px) and (max-width:768px){}
+
+
+.sidebar-menu__button{
+    position: absolute;
+    top: 15px;
+    right: -70px;
+    border: 0;
+    background: 0 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+    
+
+}
+
+.sidebar-menu__nav{
+    height: 60%;
+}
+
+.sidebar-menu__list{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-menu__item-list{
+    list-style: none;
+
+}
